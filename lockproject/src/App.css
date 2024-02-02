@@ -1,0 +1,42 @@
+#container{
+    border:1px solid black;
+    height: 200px;
+    width:300px;
+    margin: 160px 5px 0px 310px;
+    padding-bottom: 30px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+#inputField{
+    height: 32px;
+    width: 188px;
+   font-size: 1rem;
+    border-right: 1px;
+    
+}
+#container div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.eye{
+    border:1px solid black;
+    height: 36px;
+}
+
+#btn{
+    background-color: green;
+    color:white;
+    width:80px;
+    height:40px;
+    border:1px solid green;
+    font-size: 1rem;
+}
+#ncontainer{
+    border:1px solid black;
+    
+}
