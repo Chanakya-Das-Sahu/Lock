@@ -36,7 +36,33 @@
     border:1px solid green;
     font-size: 1rem;
 }
-#ncontainer{
+#noteContainer{
     border:1px solid black;
+    width: 800px;
+    height: 600px;
+    margin:auto;
+    overflow-y: scroll;
     
 }
+#plusSign{
+    position:fixed;
+    top:80%;
+    left: 70%;
+}
+#noteShow{
+    display: flex;
+}
+
+#noteText input{
+    border:1px solid black;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left:20px;
+    
+}
+/* #noteText button{
+   position:relative;
+   top:50%;
+   left:50%;
+} */
